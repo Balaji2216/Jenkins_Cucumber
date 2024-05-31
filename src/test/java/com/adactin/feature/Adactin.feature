@@ -6,6 +6,7 @@ When user enter the username in username field
 And user enter the password in the password field
 Then user click the login button and it navigate to next page
 
+
 Scenario: user search the hotel
 When user select the location from location dropdown
 And user select the hotel from hotel dropdown
@@ -14,6 +15,7 @@ And user select the number of rooms from number of rooms dropdown
 And user select the number of adults from adult per room dropdown
 And user select the number of childrens from children per room dropdown
 Then user click on the search button and it navigate to select hotel page
+
 
 Scenario: user select the hotel
 When user select the radio button of the selected hotel
