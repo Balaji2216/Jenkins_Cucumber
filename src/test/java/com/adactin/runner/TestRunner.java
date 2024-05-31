@@ -16,7 +16,6 @@ plugin ={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 public class TestRunner {
 
-	
 	 public static WebDriver driver;
 
 	@BeforeClass
