@@ -188,7 +188,7 @@ public class StepDef {
 	public void user_click_on_my_itenary_and_it_navigate_to_booked_itenary() throws Throwable {
 		
 		driver.findElement(By.xpath("//input[@id='my_itinerary']")).click();
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 
 	}
 	
