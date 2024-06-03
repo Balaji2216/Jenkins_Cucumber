@@ -12,8 +12,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".\\src\\test\\java\\com\\adactin\\feature\\Adactin.feature" ,
 glue = "stepdefinition",
-plugin ={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		"json:test-output/Jsonreport"})
+plugin ={"json:Reports/Cucumber/Jsonreport.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		})
 
 public class TestRunner {
 
